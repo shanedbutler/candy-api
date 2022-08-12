@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade"
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe"
+    },
+    {
+      "id": 3,
+      "fullName": "Hillie Phillpotts"
+    },
+    {
+      "id": 4,
+      "fullName": "Helenelizabeth Passfield"
+    },
+    {
+      "id": 5,
+      "fullName": "Franchot Slator"
+    },
+    {
+      "id": 6,
+      "fullName": "Renaud Erbe"
+    },
+    {
+      "id": 7,
+      "fullName": "Jeremy Bakker"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyaltyNumber": 852837,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "loyaltyNumber": 202244,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "loyaltyNumber": 507820,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "loyaltyNumber": 507820,
+      "userId": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "10/22/05",
+      "payRate": 32.47,
+      "userId": 5,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "startDate": "04/12/12",
+      "payRate": 29.39,
+      "userId": 6,
+      "locationId": 3
+    },
+    {
+      "id": 3,
+      "startDate": "05/06/16",
+      "payRate": 26.45,
+      "userId": 7,
+      "locationId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "2802 Zula Locks",
+      "squareFootage": 352
+    },
+    {
+      "id": 2,
+      "address": "56849 Fadel Gateway",
+      "squareFootage": 202
+    },
+    {
+      "id": 3,
+      "address": "7346 Ritchie Road",
+      "squareFootage": 507
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Spice Drop Eyes",
+      "price": 18.47,
+      "typeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Wax Lips",
+      "price": 12.39,
+      "typeId": 3
+    },
+    {
+      "id": 3,
+      "name": "Apricot Ears",
+      "price": 19.05,
+      "typeId": 1
+    },
+    {
+      "id": 4,
+      "name": "Dark Chocolate Teeth",
+      "price": 10.45,
+      "productTypeId": 2
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Gummy"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate"
+    },
+    {
+      "id": 3,
+      "name": "Old Fashioned"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "userId": 3,
+      "productId": 2,
+      "quantity": 3,
+      "dateCompleted": "Wed Apr 27 2022 15:03:21 GMT-0500 (Central Daylight Time)"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 1,
+      "quantity": 2,
+      "dateCompleted": "Fri Apr 29 2022 14:02:20 GMT-0500 (Central Daylight Time)"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "productId": 3,
+      "quantity": 5,
+      "dateCompleted": "Sat Apr 30 2022 11:26:28 GMT-0500 (Central Daylight Time)"
+    }
+  ]
+}
